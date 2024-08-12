@@ -1,0 +1,75 @@
+// import dark theme
+// @use 'element-plus/theme-chalk/src/dark/css-vars.scss' as *;
+
+// @use './element/reElementUI.scss';
+
+// ================== 滚动条美化样式 ==================
+/* 滚动条 */
+// ::-webkit-scrollbar {
+//   width: 6px;
+//   height: 6px;
+// }
+/* 滑动块 */
+// ::-webkit-scrollbar-thumb {
+//   border-radius: 10px;
+//   background-color: var(--el-color-primary);
+// }
+
+/* 轨道 */
+// ::-webkit-scrollbar-track {
+//   box-shadow: inset 0 0 5px var(--el-border-color);
+//   background: var(--el-border-color);
+// }
+
+body {
+  font-family: Inter, system-ui, Avenir, 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+#app,
+body,
+html {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--el-color-primary);
+}
+
+code {
+  border-radius: 2px;
+  padding: 2px 4px;
+  background-color: var(--el-color-primary-light-9);
+  color: var(--el-color-primary);
+}
+
+.van-field--disabled {
+  .van-field__label {
+    label {
+      color: #323233;
+    }
+  }
+}
+
+.van-dialog {
+  width: 90vh;
+  .van-dialog__header {
+    padding-bottom: 10px;
+  }
+  .van-dialog__message {
+    text-align: left !important;
+    font-size: 12px;
+  }
+}
